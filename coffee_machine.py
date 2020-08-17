@@ -7,7 +7,7 @@ class Coffee:
         self.machine_cups = 9
 
     def __str__(self):
-        return f'{self.machine_water, self.machine_beans, self.machine_cups, self.machine_money}'
+        return f'{self.machine_water, self.machine_milk, self.machine_beans, self.machine_cups, self.machine_money}'
 
     def action(self, action):
         if action == '1':
